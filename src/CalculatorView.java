@@ -38,20 +38,20 @@ public class CalculatorView extends JFrame{
 
     }
 
-   public int getFirstNumber(){
-        return Integer.parseInt(firstNumber.getText());
+   public double getFirstNumber(){
+        return Double.parseDouble(firstNumber.getText());
     }
 
-    public int getSecondNumber(){
-    	return Integer.parseInt(secondNumber.getText());
+    public double getSecondNumber(){
+    	return Double.parseDouble(secondNumber.getText());
     }
 
-    public int getCalcSolution(){
-         return Integer.parseInt(calcSolution.getText());
+    public double getCalcSolution(){
+         return Double.parseDouble(calcSolution.getText());
     }
 
-    public void setCalcSolution(int solution){
-        calcSolution.setText(Integer.toString(solution));
+    public void setCalcSolution(double solution){
+        calcSolution.setText(Double.toString(solution));
     }
 
 	// If the calculateButton is clicked execute a method

@@ -3,13 +3,13 @@ public class CalculatorModel {
 	// Holds the value of the sum of the numbers
 	// entered in the view
 		     
-	private int calculationValue;
+	private double calculationValue;
 	
-    public void addTwoNumbers(int firstNumber, int secondNumber){
-	        calculationValue = firstNumber + secondNumber;
-    }
+    public void addTwoNumbers(double firstNumber, double secondNumber){
+        calculationValue = firstNumber + secondNumber;
+}
     
-    public int getCalculationValue(){
+    public double getCalculationValue(){
         return calculationValue;
     }
 }

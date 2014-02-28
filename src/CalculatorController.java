@@ -25,7 +25,7 @@ public class CalculatorController {
  
         public void actionPerformed(ActionEvent e) {
              
-            int firstNumber, secondNumber = 0;
+            double firstNumber, secondNumber = 0;
              
             // Surround interactions with the view with
             // a try block in case numbers weren't
